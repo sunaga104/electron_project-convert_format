@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Convert format</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="main-title">Convert format</h1>
+    <p class="errMsg" id="errMsg"></p>
+    <div class="main-area">
+      <div>
+        <div>
+          <p>Case1</p>
+          <label for="before_Upper">upper case</label>
+          <input
+            type="radio"
+            id="before_Upper"
+            name="before_char_case"
+            value="Upper"
+            checked
+          />
+          <label for="before_Lower">lower case</label>
+          <input
+            type="radio"
+            id="before_Lower"
+            name="before_char_case"
+            value="Lower"
+          />
+          <p>Case2</p>
+          <label for="spaceSeparated">space separated</label>
+          <input
+            type="radio"
+            id="spaceSeparated"
+            name="before_char_case"
+            value="spaceSeparated"
+          />
+          <label for="camelCase">camelCase / PascalCase</label>
+          <input
+            type="radio"
+            id="camelCase"
+            name="before_char_case"
+            value="camelCase"
+          />
+          <label for="snakeCase">snake_case</label>
+          <input
+            type="radio"
+            id="snakeCase"
+            name="before_char_case"
+            value="snakeCase"
+          />
+          <label for="kebabCase">kebab-case</label>
+          <input
+            type="radio"
+            id="kebabCase"
+            name="before_char_case"
+            value="kebabCase"
+          />
+        </div>
+        <div>
+          <textarea
+            class="before-area"
+            cols="55"
+            rows="40"
+            placeholder="before"
+            id="before_textarea"
+          ></textarea>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Case1</p>
+          <label for="after_Upper">upper case</label>
+          <input
+            type="radio"
+            id="after_Upper"
+            name="after_char_case"
+            value="Upper"
+            checked
+          />
+          <label for="after_Lower">lower case</label>
+          <input
+            type="radio"
+            id="after_Lower"
+            name="after_char_case"
+            value="Lower"
+          />
+          <p>Case2</p>
+          <label for="spaceSeparated">space separated</label>
+          <input
+            type="radio"
+            id="spaceSeparated"
+            name="after_char_case"
+            value="spaceSeparated"
+          />
+          <label for="camelCase">camelCase</label>
+          <input
+            type="radio"
+            id="camelCase"
+            name="after_char_case"
+            value="camelCase"
+          />
+          <label for="pascalCase">PascalCase</label>
+          <input
+            type="radio"
+            id="pascalCase"
+            name="after_char_case"
+            value="pascalCase"
+          />
+          <label for="snakeCase">snake_case</label>
+          <input
+            type="radio"
+            id="snakeCase"
+            name="after_char_case"
+            value="snakeCase"
+          />
+          <label for="kebabCase">kebab-case</label>
+          <input
+            type="radio"
+            id="kebabCase"
+            name="after_char_case"
+            value="kebabCase"
+          />
+        </div>
+        <div>
+          <textarea
+            class="after-area"
+            cols="55"
+            rows="40"
+            placeholder="after"
+            id="after_textarea"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
