@@ -1,0 +1,19 @@
+{
+  "name": "change-char-case-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+     "build-macOS": "electron-packager ./src change-char-case-app2 --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src change-char-case-app --platform=win32 --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.1.1",
+    "electron-builder": "^23.3.3",
+    "electron-packager": "^16.0.0"
+  }
+}
