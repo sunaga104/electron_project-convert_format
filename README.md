@@ -49,7 +49,8 @@ You can change how characters are displayed.
 |  kebab-case  |  Hyphens (-) are used as separators to join words.  |
 
 
-An error will occur if the cases are not the same
+
+*An error will occur if the cases are not the same
 
 ![スクリーンショット 2022-09-20 115930](https://user-images.githubusercontent.com/56500993/191162100-fb57c7aa-ddd8-4c3b-9790-31d052494256.jpg)
 
